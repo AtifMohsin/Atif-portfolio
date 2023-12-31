@@ -47,7 +47,7 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <div className='max-w-sm md:w-1/2 hover:translate-y-2 duration-200'>
-                <a  className=""  target="_blank" href="https://georgelizos.com/" rel='noreferrer'>
+                <a  className=""  target="_blank" href="https://www.softjam.it/" rel='noreferrer'>
                     <img className="rounded-lg" src={SoftJam} alt='website'/>
                     </a>
                 </div>
