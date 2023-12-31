@@ -35,7 +35,7 @@ const Portfolio = () => {
             <div className='flex flex-col-reverse md:flex-row text-lg rounded-md p-6 justify-center text-center mb-12 space-y-4 bg-white md:max-w-4xl md:space-x-6 shadow-md'>
                 <div className=' max-w-sm md:w-1/2 flex flex-col items-center justify-center p-4 space-y-4 bg-white shadow-sm  '>
                     <h3 className='text-2xl font-bold'>SoftJam Website <span className='text-sm text-gray-500'>(Wordpress)</span></h3>
-                    <p className='text-sm max-w-md'> This website was designed in WordPress, theme used was Hello Elementor and Elementor Pro was used to design neat and customizable layout. This project also involes HTML and CSS to do some cumstomization.</p>
+                    <p className='text-sm max-w-md'> This website, meticulously designed in WordPress using the Hello Elementor theme and Elementor Pro, showcases a highly customizable layout. Integrating HTML and CSS, we tailored the design to meet specific requirements, ensuring a polished, professional, and user-friendly interface. Leveraging WordPress functionalities alongside Elementor Pro's advanced design features allowed for precise customization, resulting in a sophisticated and dynamic website that aligns seamlessly with project objectives.</p>
                    <div className='flex space-x-4'>
 
                 
@@ -68,7 +68,7 @@ const Portfolio = () => {
 
                 <div className='max-w-sm md:w-1/2 flex flex-col items-center justify-center p-4 space-y-4 bg-white'>
                     <h3 className='text-2xl font-bold'>George Lizos Website <span className='text-sm text-gray-500'>(Wordpress)</span></h3>
-                    <p className='text-sm max-w-md'> This website was desingned and developed in WordPress, Divi theme was use to design this neat and elegant design. Also invole WooCommerce to add e-commerce functionality. </p>
+                    <p className='text-sm max-w-md'> I built this website using WordPress and Divi, focusing on tailored design for a professional and user-friendly interface. With WooCommerce integration, I added e-commerce capabilities, making the site dynamic and aligned with project goals.</p>
                    <div className='flex space-x-4'>
                     {/* <p className='py-2 px-4 bg-white rounded-md '><SiTailwindcss className='text-blue-300 size-6' /> </p>
                     <p className='py-2 px-4 bg-white rounded-md '><FaReact className="text-blue-400 size-6"/></p>
@@ -95,7 +95,7 @@ const Portfolio = () => {
 <div className='flex text-lg rounded-md p-6 text-center mb-12 space-y-4 bg-white max-w-4xl md:space-x-6 flex-col-reverse md:flex-row shadow-md'>
                 <div className='max-w-sm md:w-1/2 flex flex-col items-center justify-center p-4 space-y-4 bg-white shadow-sm'>
                     <h3 className='text-2xl font-bold'>Rumours Hair Design <span className='text-sm text-gray-500'>(Wordpress)</span></h3>
-                    <p className='text-sm max-w-md'> This website was designed and developed in WordPress using the Divi theme, which contributed to its neat and elegant design.</p>
+                    <p className='text-sm max-w-md'> This website, meticulously designed in WordPress using Divi theme, I tailored the design to meet specific requirements, ensuring a polished, professional, and user-friendly interface. Leveraging WordPress functionalities and utlizing multiple plugins lead to sophisticated and dynamic website that aligns seamlessly with project objectives.</p>
                    <div className='flex space-x-4'>
 
 
@@ -126,7 +126,7 @@ const Portfolio = () => {
 
                 <div className='max-w-sm md:w-1/2 flex flex-col items-center justify-center p-4 space-y-4 bg-white shadow-sm'>
                     <h3 className='text-2xl font-bold'>Hessian Coffee <span className='text-sm text-gray-500'>(Wordpress)</span></h3>
-                    <p className='text-sm max-w-md'> This website was designed and developed in wordpress, Divi theme was use to create this neat and elegent design. Also invole WooCommerce to add e-commerce functionality. </p>
+                    <p className='text-sm max-w-md'> I carefully crafted this website on WordPress using the Divi theme, focusing on meeting specific requirements for a polished, professional, and user-friendly interface. By combining WordPress functionalities with the WooCommerce plugin for e-commerce, I created a modern, neat-looking site aligned with project requirements.</p>
                    <div className='flex space-x-4'>
 
                     
