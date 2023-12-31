@@ -42,7 +42,7 @@ const Portfolio = () => {
 
                    </div>
                    <div className=' flex space-x-4 font-bold text-lg p-4 '>
-                    <a className=" bg-white border-2  border-cyan-400 py-2 px-3  hover:text-white hover:bg-cyan-400 duration-200" target="_blank" href='https://georgelizos.com/' rel="noreferrer"> View Live </a>
+                    <a className=" bg-white border-2  border-cyan-400 py-2 px-3  hover:text-white hover:bg-cyan-400 duration-200" target="_blank" href='https://www.softjam.it/' rel="noreferrer"> View Live </a>
                     {/* <a className=" bg-white px-4  hover:text-blue-600 hover:translate-x-2 duration-200" href='#'> Code </a> */}
                     </div>
                 </div>

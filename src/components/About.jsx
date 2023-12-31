@@ -16,7 +16,7 @@ const About = () => {
     </div>
     <div className='flex flex-col  max-w-md bg-white p-2 rounded-md px-4  '>
         <h3 className='text-xl font-bold mb-4'>A Dedicatd Developer</h3>
-        <p className=''>I am self Developer who is passionate about building awesome websites and applications! 
+        <p className=''>I am self taught Developer who is passionate about building awesome websites and applications! 
         I excel in designing and maintaining responsive websites that offer a smooth user experience. My current skill set is HTML, CSS, Tailwind, Bootstrap, Javascript, React, Wordpress, and I am continously learning new technologies and evolving. On personal level, I am self-driven & hard working, 
         I have good experience designing and developing in Wordpress. I am also a team player who thrives in collaborating with cross-functional teams to produce outstanding web applications.
 
