@@ -1,5 +1,6 @@
 import React from 'react';
 import {useTypewriter,Cursor} from "react-simple-typewriter"
+import {Link} from "react-scroll"
 
 function HeroSec() {
  
@@ -8,7 +9,7 @@ function HeroSec() {
     loop : false,
     typeSpeed:120,
     deleteSpeed:100,
-    delaySpeed:2000
+    delaySpeed:2000 
   });
 
  
@@ -25,7 +26,7 @@ function HeroSec() {
            Hi, I'm Atif Mohsin. A passionate Front-End React Developer based in Edmonton, Canada.</p>     
         </div>
         <div className='flex gap-4 mt-4 justify-center'>
-          <button className='text-md font-bold px-6 py-2 bg-cyan-400 text-white   hover:scale-105 duration-300'>PORTFOLIO</button>
+          <Link to="portfolio" smooth duration={500} className='text-md font-bold px-6 py-2 bg-cyan-400 text-white   hover:scale-105 duration-300'>PORTFOLIO</Link>
     
         </div>
         <div className='flex mt-20 space-x-6 justify-center'>
