@@ -95,7 +95,7 @@ const Portfolio = () => {
 <div className='flex text-lg rounded-md p-6 text-center mb-12 space-y-4 bg-white max-w-4xl md:space-x-6 flex-col-reverse md:flex-row shadow-md'>
                 <div className='max-w-sm md:w-1/2 flex flex-col items-center justify-center p-4 space-y-4 bg-white shadow-sm'>
                     <h3 className='text-2xl font-bold'>Rumours Hair Design <span className='text-sm text-gray-500'>(Wordpress)</span></h3>
-                    <p className='text-sm max-w-md'> This website, meticulously designed in WordPress using Divi theme, I tailored the design to meet specific requirements, ensuring a polished, professional, and user-friendly interface. Leveraging WordPress functionalities and utlizing multiple plugins lead to sophisticated and dynamic website that aligns seamlessly with project objectives.</p>
+                    <p className='text-sm max-w-md'> This website, meticulously designed in WordPress using Divi theme, I tailored the design to meet specific requirements, ensuring a polished, professional, and user-friendly interface. Leveraging WordPress functionalities and utlizing multiple plugins lead to sophisticated and dynamic website .</p>
                    <div className='flex space-x-4'>
 
 
@@ -126,7 +126,7 @@ const Portfolio = () => {
 
                 <div className='max-w-sm md:w-1/2 flex flex-col items-center justify-center p-4 space-y-4 bg-white shadow-sm'>
                     <h3 className='text-2xl font-bold'>Hessian Coffee <span className='text-sm text-gray-500'>(Wordpress)</span></h3>
-                    <p className='text-sm max-w-md'> I carefully crafted this website on WordPress using the Divi theme, focusing on meeting specific requirements for a polished, professional, and user-friendly interface. By combining WordPress functionalities with the WooCommerce plugin for e-commerce, I created a modern, neat-looking site aligned with project requirements.</p>
+                    <p className='text-sm max-w-md'> I carefully crafted this website on WordPress using the Divi theme, focusing on meeting specific requirements for a polished, professional, and user-friendly interface. By combining WordPress functionalities with the WooCommerce plugin for e-commerce, I created a modern and neat-looking website.</p>
                    <div className='flex space-x-4'>
 
                     
@@ -148,7 +148,7 @@ const Portfolio = () => {
 <div className='flex text-lg rounded-md p-6 text-center mb-12 space-y-4 bg-white max-w-4xl md:space-x-6 flex-col-reverse md:flex-row shadow-md'>
                 <div className='max-w-sm md:w-1/2 flex flex-col items-center justify-center p-4 space-y-4 bg-white shadow-sm'>
                     <h3 className='text-2xl font-bold'>Weather App <span className='text-sm text-gray-500'>(React)</span></h3>
-                    <p className='text-sm max-w-md'> This is a responsive weather app made with Javascript/React using open-weather API.  It was my first project using API.I will dive  into APIs more in the future</p>
+                    <p className='text-sm max-w-md'> This is a responsive weather app built using JavaScript/React and leveraging the open-weather API. It marked my initial venture into API integration. I aim to further explore and engage with APIs in upcoming projects."</p>
                    <div className='flex space-x-4'>
 
 
