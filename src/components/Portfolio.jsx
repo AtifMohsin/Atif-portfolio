@@ -35,7 +35,7 @@ const Portfolio = () => {
             <div className='flex flex-col-reverse md:flex-row text-lg rounded-md p-6 justify-center text-center mb-12 space-y-4 bg-white md:max-w-4xl md:space-x-6 shadow-md'>
                 <div className=' max-w-sm md:w-1/2 flex flex-col items-center justify-center p-4 space-y-4 bg-white shadow-sm  '>
                     <h3 className='text-2xl font-bold'>SoftJam Website <span className='text-sm text-gray-500'>(Wordpress)</span></h3>
-                    <p className='text-sm max-w-md'> This website, meticulously designed in WordPress using the Hello Elementor theme and Elementor Pro, showcases a highly customizable layout. Integrating HTML and CSS, we tailored the design to meet specific requirements, ensuring a polished, professional, and user-friendly interface. Leveraging WordPress functionalities alongside Elementor Pro's advanced design features allowed for precise customization, resulting in a sophisticated and dynamic website that aligns seamlessly with project objectives.</p>
+                    <p className='text-sm max-w-md'> This website, meticulously designed in WordPress using the Hello Elementor theme and Elementor Pro, showcases a highly customizable layout. Integrating HTML and CSS, I tailored the design to meet specific requirements, ensuring a polished, professional, and user-friendly interface. Leveraging WordPress functionalities alongside Elementor Pro's advanced design features allowed for precise customization, resulting in a sophisticated and dynamic website that aligns seamlessly with project objectives.</p>
                    <div className='flex space-x-4'>
 
                 
