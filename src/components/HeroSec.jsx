@@ -2,15 +2,15 @@ import React from 'react';
 import {useTypewriter,Cursor} from "react-simple-typewriter"
 import {Link} from "react-scroll"
 
-function HeroSec() {
+// function HeroSec() {
  
-  const [text] = useTypewriter({
-    words: ["Front-End React", "WordPress"],
-    loop : false,
-    typeSpeed:120,
-    deleteSpeed:100,
-    delaySpeed:2000 
-  });
+//   const [text] = useTypewriter({
+//     words: ["Front-End React", "WordPress"],
+//     loop : false,
+//     typeSpeed:120,
+//     deleteSpeed:100,
+//     delaySpeed:2000 
+//   });
 
  
   return (
