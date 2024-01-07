@@ -16,7 +16,7 @@ function HeroSec() {
  
   return (
 
-    <div className=''>
+    <div className='mb-10'>
     <div name="HOME" className='flex h-screen  bg-white mx-auto justify-center items-center  px-10 gap-10 text-center md:text-left'>
     <div className='w-[50%] mt-4 flex flex-col justify-center items-center md:justify-start md:items-start'>
 

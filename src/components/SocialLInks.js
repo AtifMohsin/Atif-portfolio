@@ -61,12 +61,12 @@ const SocialLInks = () => {
     <li
       key={id}
       className={
-        "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] bg-gray-800 hover:bg-yellow-400 hover:rounded-md duration-300 hover:ml-[-10px]" +
+        "group flex justify-between items-center w-40 h-14 px-4 ml-[-100px] bg-gray-800 hover:bg-yellow-400 hover:rounded-md duration-300 hover:ml-[-10px]" +
         " " +
         style
       }
     >
-      <a href={href} className="flex justify-between items-center w-full text-white hover:text-black
+      <a href={href} className="flex justify-between items-center w-full text-white group-hover:text-black
       " download={download}
       target='blank'
       rel='noreferrer'>

@@ -16,7 +16,7 @@ const Portfolio = () => {
 
 
   return (
-    <div name="PORTFOLIO" className='container w-full h-full  mt-2 bg-white'>
+    <div name="PORTFOLIO" className='container w-full h-full  mt-2 bg-white mb-20'>
         
  
         
@@ -54,9 +54,9 @@ const Portfolio = () => {
 
                    </div>
                    
-                   <div className=' flex space-x-4 text-lg font-bold p-4'>
+                   <div className=' flex space-x-8 text-lg font-bold p-4'>
                    <a className=" bg-white border-2  border-black py-2 px-3  hover:text-white hover:bg-black duration-200" target="_blank" href='https://netflix-clonee-site.netlify.app/' rel="noreferrer"> View Live </a>
-                   <a className=" bg-white   hover:text-black py-2 px-3 hover:translate-x-2 duration-200" href='https://github.com/AtifMohsin/netflix-clone'> View Code </a>
+                   <a className=" bg-white   hover:text-black py-2  hover:translate-x-2 duration-200 hover:border-b-4 border-yellow-400" href='https://github.com/AtifMohsin/netflix-clone'> View Code </a>
                     </div>
                     
                 </div>
@@ -195,9 +195,9 @@ const Portfolio = () => {
 
 
                    </div>
-                   <div className=' flex space-x-4 font-bold text-lg p-4'>
+                   <div className=' flex space-x-8 font-bold text-lg p-4'>
                     <a className=" bg-white border-2  border-black py-2 px-3  hover:text-white hover:bg-black duration-200" target="_blank" href='https://atifmohsin.github.io/Weather-App/' rel="noreferrer"> View Live </a>
-                    <a className=" bg-white   hover:text-black py-2 px-3 hover:translate-x-2 duration-200" href='https://github.com/AtifMohsin/Weather-App'> View Code </a>
+                    <a className=" bg-white   hover:text-black py-2  hover:translate-x-2 duration-200 hover:border-b-4 border-yellow-400" href='https://github.com/AtifMohsin/Weather-App'> View Code </a>
                     
                     </div>
                 </div>
