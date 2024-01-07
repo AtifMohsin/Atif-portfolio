@@ -27,7 +27,7 @@ function HeroSec() {
            Hi, I'm Atif Mohsin. A passionate Front-End React Developer based in Edmonton, Canada.</p>     
         </div>
         <div className='flex gap-4 mt-4'>
-          <Link to="PORTFOLIO"  className='text-md font-bold px-6 py-2 bg-yellow-400   hover:scale-105 duration-300'>PORTFOLIO</Link>
+          <Link to="PORTFOLIO" smooth offset={-100} duration={500} className='text-md font-bold px-6 py-2 bg-yellow-400   hover:scale-105 duration-300'>PORTFOLIO</Link>
           
         </div>
 
@@ -51,7 +51,7 @@ function HeroSec() {
       
     </div>
     <div className='hidden md:block md:w-[30%] shadow-lg'>
-        <img className="rounded-md shadow-md" src={HeroImage} alt='heroimage' />
+        <img className="rounded-md shadow-md" src={HeroImage} alt='heroimage'/>
       </div>
       
 
