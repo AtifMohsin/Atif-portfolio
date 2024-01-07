@@ -13,19 +13,19 @@ const NavBar = () => {
   const links = [
     {
       id: 1,
-      link: 'home',
+      link: 'HOME',
     },
     {
       id: 2,
-      link: 'about',
+      link: 'ABOUT',
     },
     {
       id: 3,
-      link: 'portfolio',
+      link: 'PORTFOLIO',
     },
     {
       id: 4,
-      link: 'contact',
+      link: 'CONTACT',
     },
   ];
 
@@ -34,7 +34,7 @@ const NavBar = () => {
     text-black bg-white fixed'>
        <div className='flex justify space-x-3 pl-20'>
        <img className='h-[30px] hover:scale-150 duration-200' src={Avatar} alt='avatar'/>
-       <h1 className='text-md lg:text-lg font-bold py-1  text-cyan-400' >ATIF MOHSIN</h1>
+       <h1 className='text-md lg:text-lg font-bold py-1  text-black' >AM.</h1>
        </div>
       <ul className='hidden md:flex pr-20'>
         {links.map(({ id, link }) => (

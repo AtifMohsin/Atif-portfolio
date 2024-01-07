@@ -4,6 +4,7 @@ import SoftJam from "../assets/projects/SoftJam.png"
 import GerogeLinoz from "..//assets/projects/GerogeLizos.png"
 import RumorsHair from "../assets/projects/RumorDesign.png"
 import HessainCoffee from "..//assets/projects/HessianCoffee.png"
+import NetfilxClone from "../assets/projects/netflix-clone.png"
 import WeatherApp from "..//assets/projects/WeatherApp.png"
 
 
@@ -15,17 +16,58 @@ const Portfolio = () => {
 
 
   return (
-    <div name="portfolio" className='container w-full h-full mx-auto mt-2 bg-white'>
+    <div name="PORTFOLIO" className='container w-full h-full  mt-2 bg-white'>
         
  
         
         
-        <div className=' flex flex-col items-center mt-5 p-4 mx-auto px-6  space-y-10 max-w-lg  md:max-w-4xl'>
+        <div className=' flex flex-col items-center mt-5 p-4 mx-auto px-6  space-y-10 max-w-lg  md:max-w-4xl lg:max-w-7xl'>
 
             <div className='text-center space-y-4 mb-12'>
-                <h2 className='text-4xl font-bold inline-block border-b-4 border-cyan-400  duration-200 p-2'>PORTFOLIO</h2>
+                <h2 className='text-4xl font-bold inline-block border-b-4 border-yellow-400  duration-200 p-2'>PORTFOLIO</h2>
+                <p> Each project is unique piece of development.</p>
+                
                 
             </div>
+
+
+{/* Netflix Clone */}
+
+            <div className='flex text-lg rounded-md p-6 text-center mb-12 space-y-4 bg-white md:max-w-4xl lg:max-w-7xl md:space-x-6 flex-col md:flex-row shadow-md'>
+                
+                <div className='max-w-sm md:w-1/2 mt-4 hover:translate-y-2 duration-200'>
+                    <a  className="" target="_blank" href="https://netflix-clonee-site.netlify.app/" rel='noreferrer'>
+                    <img className="rounded-lg" src={NetfilxClone} alt='website'/> </a>
+
+                </div>
+
+
+                <div className='max-w-sm md:w-1/2 flex flex-col items-center justify-center p-4 space-y-4 bg-white'>
+                    <h3 className='text-2xl font-bold'>Netflix Clone <span className='text-sm text-gray-500'>(React/Firebase)</span></h3>
+                    <p className='text-sm max-w-md'> The Netflix clone project stands as a testament to my proficiency in modern web development technologies and showcases my ability to create a robust and user-friendly application. It was a challenging yet rewarding experience that significantly enhanced my skill set and problem-solving capabilities.</p>
+                   <div className='flex space-x-4'>
+                    {/* <p className='py-2 px-4 bg-white rounded-md '><SiTailwindcss className='text-blue-300 size-6' /> </p>
+                    <p className='py-2 px-4 bg-white rounded-md '><FaReact className="text-blue-400 size-6"/></p>
+
+                    <p className='py-2 px-4 bg-white rounded-md '><FaWordpressSimple className="text-blue-400 size-6"/></p> */}
+                    
+
+                   </div>
+                   
+                   <div className=' flex space-x-4 text-lg font-bold p-4'>
+                   <a className=" bg-white border-2  border-black py-2 px-3  hover:text-white hover:bg-black duration-200" target="_blank" href='https://netflix-clonee-site.netlify.app/' rel="noreferrer"> View Live </a>
+                   <a className=" bg-white   hover:text-black py-2 px-3 hover:translate-x-2 duration-200" href='https://github.com/AtifMohsin/netflix-clone'> View Code </a>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+
+
+
+
+
 
 
 
@@ -42,7 +84,7 @@ const Portfolio = () => {
 
                    </div>
                    <div className=' flex space-x-4 font-bold text-lg p-4 '>
-                    <a className=" bg-white border-2  border-cyan-400 py-2 px-3  hover:text-white hover:bg-cyan-400 duration-200" target="_blank" href='https://www.softjam.it/' rel="noreferrer"> View Live </a>
+                    <a className=" bg-white border-2  border-black py-2 px-3  hover:text-white hover:bg-black duration-200" target="_blank" href='https://www.softjam.it/' rel="noreferrer"> View Live </a>
                     {/* <a className=" bg-white px-4  hover:text-blue-600 hover:translate-x-2 duration-200" href='#'> Code </a> */}
                     </div>
                 </div>
@@ -79,7 +121,7 @@ const Portfolio = () => {
                    </div>
                    
                    <div className=' flex space-x-4 text-lg font-bold p-4'>
-                   <a className=" bg-white border-2  border-cyan-400 py-2 px-3  hover:text-white hover:bg-cyan-400 duration-200" target="_blank" href='https://georgelizos.com/' rel="noreferrer"> View Live </a>
+                   <a className=" bg-white border-2  border-black py-2 px-3  hover:text-white hover:bg-black duration-200" target="_blank" href='https://georgelizos.com/' rel="noreferrer"> View Live </a>
                    
                     </div>
                     
@@ -101,7 +143,7 @@ const Portfolio = () => {
 
                    </div>
                    <div className=' flex space-x-4 font-bold text-lg p-4'>
-                    <a className=" bg-white border-2  border-cyan-400 py-2 px-3  hover:text-white hover:bg-cyan-400 duration-200" target="_blank" href='https://rumourshairdesigns.com/' rel="noreferrer"> View Live </a>
+                    <a className=" bg-white border-2  border-black py-2 px-3  hover:text-white hover:bg-black duration-200" target="_blank" href='https://rumourshairdesigns.com/' rel="noreferrer"> View Live </a>
                     
                     </div>
                 </div>
@@ -134,7 +176,7 @@ const Portfolio = () => {
                    </div>
                    
                    <div className=' flex space-x-4 text-lg font-bold p-4'>
-                   <a className=" bg-white border-2  border-cyan-400 py-2 px-3  hover:text-white hover:bg-cyan-400 duration-200" target="_blank" href='https://hessiancoffee.com/' rel="noreferrer"> View Live </a>
+                   <a className=" bg-white border-2  border-black py-2 px-3  hover:text-white hover:bg-black duration-200" target="_blank" href='https://hessiancoffee.com/' rel="noreferrer"> View Live </a>
                     
                     </div>
                     
@@ -154,8 +196,8 @@ const Portfolio = () => {
 
                    </div>
                    <div className=' flex space-x-4 font-bold text-lg p-4'>
-                    <a className=" bg-white border-2  border-cyan-400 py-2 px-3  hover:text-white hover:bg-cyan-400 duration-200" target="_blank" href='https://atifmohsin.github.io/Weather-App/' rel="noreferrer"> View Live </a>
-                    <a className=" bg-white   hover:text-cyan-400 py-2 px-3 hover:translate-x-2 duration-200" href='https://github.com/AtifMohsin/Weather-App'> View Code </a>
+                    <a className=" bg-white border-2  border-black py-2 px-3  hover:text-white hover:bg-black duration-200" target="_blank" href='https://atifmohsin.github.io/Weather-App/' rel="noreferrer"> View Live </a>
+                    <a className=" bg-white   hover:text-black py-2 px-3 hover:translate-x-2 duration-200" href='https://github.com/AtifMohsin/Weather-App'> View Code </a>
                     
                     </div>
                 </div>
