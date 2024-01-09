@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {Link} from "react-scroll"
-import HeroImage from "..//assets/icons/AtifImage.jpg"
+// import HeroImage from "..//assets/icons/AtifImage.jpg"
 
 function HeroSec() {
  
@@ -16,12 +16,11 @@ function HeroSec() {
  
   return (
 
-    <div className='mb-10'>
     <div name="HOME" className='flex h-screen  bg-white mx-auto justify-center items-center  px-10 gap-10 text-center md:text-left'>
-    <div className='w-[50%] mt-4 flex flex-col justify-center items-center md:justify-start md:items-start'>
+    <div className='w-[50%] mt-4 flex flex-col justify-center items-center'>
 
         <div className=' text-black  '>
-           <h1 className='text-6xl  text-left font-bold'>
+           <h1 className='text-6xl  text-center font-bold'>
            Front-End Developer </h1> 
            <p className='text-gray-600 md:text-lg   py-4'>
            Hi, I'm Atif Mohsin. A passionate Front-End React Developer based in Edmonton, Canada.</p>     
@@ -44,24 +43,13 @@ function HeroSec() {
             </ul>
           </div>
           <div className='flex gap-4 mt-10'>
-          <Link to="PORTFOLIO" smooth offset={-100} duration={500} className='text-md font-bold px-6 py-2 bg-yellow-400   hover:scale-105 duration-300'>PORTFOLIO</Link>
+          <Link to="ABOUT" smooth offset={-100} duration={500} className='text-md font-bold px-6 py-2 bg-yellow-400   hover:scale-105 duration-300'>Know more</Link>
+
           
         </div>
       
 
-      
-    </div>
-    <div className='hidden md:block md:w-[30%] shadow-lg'>
-        <img className="rounded-md shadow-md" src={HeroImage} alt='heroimage'/>
-      </div>
-      
-
-
-    </div>
-    <div className='flex mb-6 space-x-6 justify-center items-center'>
-          
         </div>
-        <div/>
         </div>
   )
 }
