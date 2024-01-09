@@ -26,10 +26,7 @@ function HeroSec() {
            <p className='text-gray-600 md:text-lg   py-4'>
            Hi, I'm Atif Mohsin. A passionate Front-End React Developer based in Edmonton, Canada.</p>     
         </div>
-        <div className='flex gap-4 mt-4'>
-          <Link to="PORTFOLIO" smooth offset={-100} duration={500} className='text-md font-bold px-6 py-2 bg-yellow-400   hover:scale-105 duration-300'>PORTFOLIO</Link>
-          
-        </div>
+        
 
         <div className='mt-4'> 
           <p className='text-xl '>Tech Stack  |</p>
@@ -46,6 +43,10 @@ function HeroSec() {
               <li> <img className='hover:scale-125 duration-300' src='https://skillicons.dev/icons?i=github' alt="html"/></li>
             </ul>
           </div>
+          <div className='flex gap-4 mt-10'>
+          <Link to="PORTFOLIO" smooth offset={-100} duration={500} className='text-md font-bold px-6 py-2 bg-yellow-400   hover:scale-105 duration-300'>PORTFOLIO</Link>
+          
+        </div>
       
 
       

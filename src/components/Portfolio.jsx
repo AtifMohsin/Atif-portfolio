@@ -16,12 +16,12 @@ const Portfolio = () => {
 
 
   return (
-    <div name="PORTFOLIO" className='container w-full h-full  mt-2 bg-white mb-20'>
+    <div name="PORTFOLIO" className='container mx-auto w-full h-full  mt-2 bg-white mb-20'>
         
  
         
         
-        <div className=' flex flex-col items-center mt-5 p-4 mx-auto px-6  space-y-10 max-w-lg  md:max-w-4xl lg:max-w-7xl'>
+        <div className=' flex flex-col items-center mx-auto mt-5 p-4 px-6  space-y-10 max-w-lg  md:max-w-4xl lg:max-w-7xl'>
 
             <div className='text-center space-y-4 mb-12'>
                 <h2 className='text-4xl font-bold inline-block border-b-4 border-yellow-400  duration-200 p-2'>PORTFOLIO</h2>
