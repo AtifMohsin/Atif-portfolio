@@ -13,8 +13,8 @@ function Contact () {
           <p>Email:atif.h.mohsin@gmai.com</p>
         </div>
         <div className='flex gap-5'>
-        <a href="https://github.com/AtifMohsin" target="_blank" ><FaGithub size={30} color='gray'/></a>
-        <a href="https://www.linkedin.com/in/atifmohsin/" target="_blank"><FaLinkedin size={30} color='gray'/></a>
+        <a href="https://github.com/AtifMohsin" target="_blank" rel="noopener noreferrer"><FaGithub size={30} color='gray'/></a>
+        <a href="https://www.linkedin.com/in/atifmohsin/" target="_blank" rel="noopener noreferrer"><FaLinkedin size={30} color='gray'/></a>
           
         </div>
       </div>
