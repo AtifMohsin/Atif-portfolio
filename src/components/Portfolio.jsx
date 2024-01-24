@@ -6,6 +6,7 @@ import RumorsHair from "../assets/projects/RumorDesign.png"
 import HessainCoffee from "..//assets/projects/HessianCoffee.png"
 import NetfilxClone from "../assets/projects/netflix-clone.png"
 import WeatherApp from "..//assets/projects/WeatherApp.png"
+import Admindashboard from "..//assets/projects/Admindashboard.png"
 
 
 
@@ -24,11 +25,36 @@ const Portfolio = () => {
         <div className=' flex flex-col items-center mx-auto mt-5 p-4 px-6  space-y-10 max-w-lg  md:max-w-4xl lg:max-w-7xl'>
 
             <div className='text-center space-y-4 mb-12'>
-                <h2 className='text-4xl font-bold inline-block border-b-4 border-yellow-400  duration-200 p-2'>PORTFOLIO</h2>
+                <h2 className='text-4xl font-bold inline-block border-b-4 border-gray-800  duration-200 p-2'>PORTFOLIO</h2>
                 <p> Each project is unique piece of development.</p>
                 
                 
             </div>
+
+
+{/* Admin Dashboard */}
+
+<div className='flex flex-col-reverse md:flex-row text-lg rounded-md p-6 justify-center text-center mb-12 space-y-4 bg-white md:max-w-4xl md:space-x-6 shadow-md'>
+                <div className=' max-w-sm md:w-1/2 flex flex-col items-center justify-center p-4 space-y-4 bg-white shadow-sm  '>
+                    <h3 className='text-2xl font-bold'>Admin Dashboard <span className='text-sm text-gray-500'>(React/CSS)</span></h3>
+                    <p className='text-sm max-w-md'> This admin dashboard project reflects my commitment to delivering high-quality solutions that not only meet functional requirements but also prioritize a visually appealing and user-centric design. It serves as a testament to my skills in React development and CSS styling, showcasing my ability to create impactful and efficient web applications.</p>
+                   <div className='flex space-x-4'>
+
+                
+
+                   </div>
+                   <div className=' flex space-x-4 font-bold text-lg p-4 '>
+                    <a className=" bg-white border-2  border-black py-2 px-3  hover:text-white hover:bg-black duration-200" target="_blank" href='https://github.com/AtifMohsin/dashboard' rel="noreferrer"> View Code </a>
+                    {/* <a className=" bg-white px-4  hover:text-blue-600 hover:translate-x-2 duration-200" href='#'> Code </a> */}
+                    </div>
+                </div>
+                <div className='max-w-sm md:w-1/2 hover:translate-y-2 duration-200'>
+                
+                    <img className="rounded-lg" src={Admindashboard} alt='website'/>
+                    
+                </div>
+            </div>  
+
 
 
 {/* Netflix Clone */}
@@ -56,7 +82,7 @@ const Portfolio = () => {
                    
                    <div className=' flex space-x-8 text-lg font-bold p-4'>
                    <a className=" bg-white border-2  border-black py-2 px-3  hover:text-white hover:bg-black duration-200" target="_blank" href='https://netflix-clonee-site.netlify.app/' rel="noreferrer"> View Live </a>
-                   <a className=" bg-white   hover:text-black py-2  hover:translate-x-2 duration-200 hover:border-b-4 border-yellow-400" href='https://github.com/AtifMohsin/netflix-clone'> View Code </a>
+                   <a className=" bg-white border-2  border-black py-2 px-3  hover:text-white hover:bg-black duration-200" target="_blank" href='https://github.com/AtifMohsin/netflix-clone' rel="noreferrer"> View Code </a>
                     </div>
                     
                 </div>
@@ -195,9 +221,9 @@ const Portfolio = () => {
 
 
                    </div>
-                   <div className=' flex space-x-8 font-bold text-lg p-4'>
+                   <div className=' flex space-x-8 font-bold p-4'>
                     <a className=" bg-white border-2  border-black py-2 px-3  hover:text-white hover:bg-black duration-200" target="_blank" href='https://atifmohsin.github.io/Weather-App/' rel="noreferrer"> View Live </a>
-                    <a className=" bg-white   hover:text-black py-2  hover:translate-x-2 duration-200 hover:border-b-4 border-yellow-400" href='https://github.com/AtifMohsin/Weather-App'> View Code </a>
+                    <a className=" bg-white border-2  border-black py-2 px-3  hover:text-white hover:bg-black duration-200" target="_blank" href='https://github.com/AtifMohsin/Weather-App' rel="noreferrer"> View Code </a>
                     
                     </div>
                 </div>

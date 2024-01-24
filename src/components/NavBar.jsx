@@ -38,7 +38,7 @@ const NavBar = () => {
        </div>
       <ul className='hidden md:flex pr-20'>
         {links.map(({ id, link }) => (
-          <li key={id} className='text-sm flex cursor-pointer capitalize text-black px-4 hover:text-cyan-400 font-bold duration-200 active:text-cyan-400'>
+          <li key={id} className='text-sm flex cursor-pointer capitalize text-black px-4 hover:text-cyan-400 font-bold duration-200'>
             <Link to={link} smooth offset={-100} duration={500}>
               {link}
             </Link>

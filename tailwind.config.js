@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       fontFamily:{
         signature:["Great Vibes"]
-      }
+      },
+      rotate: ['group-hover']
     },
   },
   plugins: [],
